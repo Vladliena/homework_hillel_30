@@ -1,0 +1,28 @@
+#grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#grid > div {
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.pop_up {
+  width: 350px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 550px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
